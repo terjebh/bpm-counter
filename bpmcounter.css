@@ -1,0 +1,49 @@
+* {
+    background-color: #000;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#bpmcounter {
+    display: block;
+    margin: 10px;
+}
+
+#reset {
+    display: block;
+    margin: 10px;
+}
+
+button {
+    transition-duration: 0.1s;
+    width: 137px;
+    height: 66px;
+    border: none;
+    box-shadow: 0.2px 0.2px 4px -2px gray, 0px 0.5px 2px -1px rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: #000;
+    outline: none;
+}
+
+button:hover {
+    transition-duration: 0.1s;
+    cursor: pointer;
+    background-color: #161616;
+}
+
+button:active, .clicked {
+    background-color: #343452;
+}
+
+.clicked {
+    transition-duration: 0.1s;
+}
